@@ -1,0 +1,42 @@
+print("Hello, World!")
+
+name = "Karpaga"
+age = 20
+branch = "ECE"
+print(name)
+print(age)
+print(branch)
+
+marks = 85
+year = 2026
+print(marks)
+print(type(marks))
+
+percentage = 89.5
+height = 5.4
+print(percentage)
+print(type(percentage))
+
+college = "Sathyabama"
+city = "Chennai"
+print(college)
+print(type(city))
+
+is_student = True
+is_passed = False
+print(is_student)
+print(type(is_passed))
+
+None Data Type
+value = None
+print(value)
+print(type(value))
+
+name = "Karpaga"
+age = 20
+percentage = 89.5
+is_student = True
+print(type(name))
+print(type(age))
+print(type(percentage))
+print(type(is_student))
