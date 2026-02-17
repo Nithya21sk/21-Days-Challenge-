@@ -1,0 +1,11 @@
+Today I began my 11-day Python learning challenge to build a strong foundation in programming. 
+Python is a high-level, easy-to-read programming language that is widely used in web development, data analysis, artificial intelligence, and automation.
+On Day 1, I learned how to set up and run Python programs. I understood how to use the print() function to display output on the screen. I also learned about variables and how they are used to store data in a program.
+I studied basic data types such as:
+Integer (int) – for whole numbers
+Float (float) – for decimal numbers
+String (str) – for text
+Boolean (bool) – for True/False values
+None – represents no value
+I practiced simple programs like printing my name, storing values in variables, and checking the data type using the type() function. These exercises helped me understand how Python handles different types of data.
+Overall, Day 1 gave me a clear understanding of the basic structure of Python. I am looking forward to learning more concepts and improving my coding skills in the coming days.
