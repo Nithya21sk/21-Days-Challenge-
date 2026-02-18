@@ -1,0 +1,49 @@
+a = 10
+b = 3
+print("Addition:", a + b)
+print("Subtraction:", a - b)
+print("Multiplication:", a * b)
+print("Division:", a / b)
+print("Remainder:", a % b)
+print("Floor Division:", a // b)
+print("Power:", a ** b)
+
+x = 20
+y = 15
+print("Equal:", x == y)
+print("Not Equal:", x != y)
+print("Greater Than:", x > y)
+print("Less Than:", x < y)
+print("Greater or Equal:", x >= y)
+print("Less or Equal:", x <= y)
+
+age = 20
+attendance = 80
+print("Eligible (and):", age >= 18 and attendance >= 75)
+print("Teen or Senior (or):", age < 18 or age > 60)
+print("Not Eligible:", not(age < 18))
+
+num = 10
+num += 5
+print("After += :", num)
+
+num -= 3
+print("After -= :", num)
+
+num *= 2
+print("After *= :", num)
+
+num /= 4
+print("After /= :", num)
+
+num %= 3
+print("After %= :", num)
+
+a = 5   # Binary: 101
+b = 3   # Binary: 011
+print("Bitwise AND:", a & b)
+print("Bitwise OR:", a | b)
+print("Bitwise XOR:", a ^ b)
+print("Bitwise NOT:", ~a)
+print("Left Shift:", a << 1)
+print("Right Shift:", a >> 1)
