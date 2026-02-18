@@ -1,0 +1,13 @@
+Today I learned about operators in Python. Operators are symbols used to perform operations on variables and values. 
+They are very important for building logic and performing calculations in a program.
+First, I learned about arithmetic operators such as +, -, *, /, %, //, and **. 
+These operators are used for mathematical calculations like addition, subtraction, multiplication, division, finding remainder, floor division, and power.
+Next, I practiced comparison operators like ==, !=, >, <, >=, and <=. These operators compare two values and return a Boolean result (True or False). 
+They are mainly used in decision-making.
+I also studied logical operators (and, or, not) which help combine multiple conditions. 
+These are useful when checking more than one condition at the same time.
+Then, I learned about assignment operators such as +=, -=, *=, /=, and %=. These operators make it easier to update variable values.
+Finally, I was introduced to bitwise operators such as &, |, ^, ~, <<, and >>. These operators work at the binary (bit) level and are mainly used in low-level programming and optimization. 
+Although they are advanced, I practiced simple examples to understand how they manipulate bits.
+Overall, Day 2 helped me understand how operators are used to perform calculations, comparisons, and logical operations in Python. 
+This strengthened my programming foundation and improved my logical thinking skills.
