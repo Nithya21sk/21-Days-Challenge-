@@ -1,0 +1,17 @@
+Today I learned about membership and identity operators in Python. 
+These operators are used to check relationships between values and objects in a program. Understanding these operators helped me improve my knowledge of how Python handles data internally.
+First, I studied membership operators, which are in and not in. 
+These operators are used to check whether a value exists inside a sequence such as a string, list, tuple, or set. 
+If the value is present, the result will be True; otherwise, it will be False.
+For example, I checked whether a number exists inside a list and whether a character exists inside a string. 
+This helped me understand how Python searches within collections.
+Next, I learned about identity operators, which are is and is not.
+These operators are different from comparison operators. 
+While comparison operators check whether values are equal, identity operators check whether two variables refer to the same object in memory.
+For example, I created two variables with the same value and compared them using both == and is.
+I observed that == checks value equality, whereas is checks memory identity.
+This concept gave me a small introduction to how Python manages objects internally.
+I did some examples to clearly understand the difference between membership and identity operators. 
+Practicing these examples helped me strengthen my understanding of object behavior and logical checking in Python.
+Overall, Day 3 improved my understanding of how Python handles data comparison and object references. 
+These concepts will be very useful when I start learning Object-Oriented Programming.
