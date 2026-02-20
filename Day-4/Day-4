@@ -1,0 +1,12 @@
+In Python, a string is a collection of characters written inside single or double quotes. 
+Strings are used to store text like names, messages, and sentences. 
+Python provides different operators to perform operations on strings.
+The most common string operator is concatenation (+). 
+It is used to join two or more strings together. 
+For example, "Good" + "Morning" will produce "GoodMorning".
+Another important operator is replication (*). 
+It is used to repeat a string multiple times. For example, "Hi" * 3 will give "HiHiHi".
+Python also provides membership operators such as in and not in. 
+These operators check whether a particular word or character is present inside a string. For example, "cat" in "concatenate" will return True.
+In addition, comparison operators like ==, !=, <, and > can be used to compare two strings. Python compares strings based on alphabetical (ASCII) order.
+Overall, Day-4 string operators make text manipulation easy in Python programming. By using concatenation, replication, membership, and comparison operators, we can perform many useful operations on strings in a simple way.
