@@ -1,0 +1,20 @@
+a = "Good"
+b = "Morning"
+print(a + " " + b)
+
+Replication (*)
+text = "Hi "
+print(text * 3)
+
+Membership (in)
+word = "Python"
+print("Py" in word)
+
+Membership (not in)
+sentence = "I love coding"
+print("Java" not in sentence)
+
+Comparison (==)
+str1 = "apple"
+str2 = "apple"
+print(str1 == str2)
