@@ -1,0 +1,11 @@
+Today I learned about conditional statements in Python. 
+Conditional statements are used to make decisions in a program. 
+Just like in real life we take decisions based on certain conditions, a program also needs to decide what action to perform depending on different situations. 
+This decision-making process is done using conditional statements.
+The most basic conditional statement is the “if” statement. It checks whether a condition is true or false. 
+If the condition is true, the program executes a particular set of instructions. 
+If the condition is false, it simply skips those instructions and continues with the rest of the program.
+This helps in controlling the flow of execution.
+Sometimes, we need two possible outcomes. In such cases, we use “if-else”. If the condition is true, one block of statements will execute; otherwise, the other block will execute. This is useful in many real-life situations like checking whether a number is even or odd, whether a student has passed or failed, or whether a person is eligible to vote.
+When there are multiple conditions to check, we use “if-elif-else”. The program checks the conditions one by one. As soon as it finds a true condition, it executes that block and ignores the remaining conditions. This is very helpful in grading systems, menu selection programs, and classification problems.
+Another important concept is nested conditional statements. In nested conditions, one conditional statement is placed inside another. This is useful when a second condition needs to be checked only if the first condition is true. For example, checking eligibility for a scholarship may depend on both marks and family income.
