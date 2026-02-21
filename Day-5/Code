@@ -1,0 +1,52 @@
+units = int(input("Enter units: "))
+if units <= 100:
+    bill = units * 1.5
+elif units <= 200:
+    bill = units * 2.5
+else:
+    bill = units * 4
+print("Electricity Bill =", bill)
+
+2 ATM Withdrawal 
+
+balance = 5000
+withdraw = int(input("Enter amount to withdraw: "))
+if withdraw <= balance:
+    if balance - withdraw >= 1000:
+        print("Transaction Successful")
+    else:
+        print("Minimum balance should be 1000")
+else:
+    print("Insufficient Balance")
+
+3 Scholarship Eligibility 
+
+marks = int(input("Enter marks: "))
+income = int(input("Enter family income: "))
+if marks >= 90 and income < 200000:
+    print("Full Scholarship")
+elif marks >= 75:
+    print("Half Scholarship")
+else:
+    print("No Scholarship")
+
+4 Password Strength Checker 
+
+password = input("Enter password: ")
+if len(password) >= 8:
+    print("Strong Password")
+else:
+    print("Weak Password")
+
+5 Movie Ticket Price 
+
+age = int(input("Enter age: "))
+
+if age < 5:
+    print("Free Ticket")
+elif age <= 18:
+    print("Ticket Price = 100")
+elif age <= 60:
+    print("Ticket Price = 200")
+else:
+    print("Ticket Price = 120")
