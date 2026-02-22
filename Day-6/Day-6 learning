@@ -1,0 +1,7 @@
+Loop statements are used to repeat a block of code multiple times. 
+They help reduce repetition and make programs shorter and more efficient.
+In Python, there are two main loops: for loop and while loop.
+A for loop is used when we know how many times to repeat.
+A while loop runs as long as a condition is true.
+We can also use break to stop the loop and continue to skip one iteration. 
+Loops are very important in programming because they help perform repeated tasks easily.
