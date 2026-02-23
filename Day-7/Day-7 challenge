@@ -1,0 +1,24 @@
+In Python, a string is a collection of characters written inside single or double quotes. 
+Strings are used to store text like names, messages, addresses, and more. 
+For example, "Hello" and "Python" are strings.
+Indexing is used to access individual characters in a string.
+Each character has a position number called an index. 
+Indexing starts from 0.
+For example, in the word "Python", P is at index 0, y is at index 1, and so on.
+We can also use negative indexing to access characters from the end. 
+In "Python", n is at index -1.
+Slicing is used to get a part of the string.
+It allows us to extract a range of characters using a start and end index. 
+For example, if we take "Programming", we can slice it to get only "Program" or "gram".
+Slicing helps when we want only a specific portion of text.
+Python provides many string methods to perform operations on strings. 
+Some common methods are:
+upper() – converts text to uppercase
+lower() – converts text to lowercase
+strip() – removes extra spaces
+replace() – replaces one word with another
+find() – finds the position of a word
+These methods make string handling easy and powerful.
+String formatting is used to insert values into a string. Instead of joining strings manually, we can use formatting. One common way is using f-strings. 
+For example, if we have a name and age, we can easily display them inside a sentence using formatting. This makes the output clear and readable.
+Strings are very important in real-world programs like form validation, password checking, data processing, report generation, and chat applications.
