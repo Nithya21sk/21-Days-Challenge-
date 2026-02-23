@@ -1,0 +1,28 @@
+Student Result Analyzer Program:
+
+name = input("Enter student name: ")
+total_marks = 500
+
+marks = float(input("Enter obtained marks (out of 500): "))
+attendance = float(input("Enter attendance percentage: "))
+
+percentage = (marks / total_marks) * 100
+
+print("\nStudent Name:", name)
+print("Percentage:", percentage, "%")
+
+
+if percentage >= 90:
+    grade = "A"
+elif 75 <= percentage <= 89:
+    grade = "B"
+elif 50 <= percentage <= 74:
+    grade = "C"
+else:
+    grade = "Fail"
+
+print("Grade:", grade)
+
+
+if attendance < 75:
+    print("Warning: Low Attendance")
