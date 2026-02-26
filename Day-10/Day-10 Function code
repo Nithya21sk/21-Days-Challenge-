@@ -1,0 +1,29 @@
+total_fund = 0
+
+def calculate_scholarship(name, marks, sports=False): 
+    global total_fund  
+
+    scholarship = 0
+    
+    if marks >= 90:
+        scholarship = 5000
+    elif marks >= 75:
+        scholarship = 3000
+    else:
+        scholarship = 1000
+    
+    if sports == True:
+        scholarship += 500
+    
+    total_fund += scholarship  
+    
+    return scholarship   
+
+
+# Function call
+amount1 = calculate_scholarship("Kalyani", 92, True)
+amount2 = calculate_scholarship("Arun", 70)
+
+print("Kalyani Scholarship:", amount1)
+print("Arun Scholarship:", amount2)
+print("Total Fund Distributed:", total_fund)
