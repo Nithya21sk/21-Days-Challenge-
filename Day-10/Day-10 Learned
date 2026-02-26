@@ -1,0 +1,8 @@
+A function is a reusable block of code that performs a specific task. 
+It helps make programs organized and avoids repeating the same code.
+Parameters are inputs given to a function. They allow the function to work with different values.
+A return statement sends a result back to where the function was called so it can be used later.
+Default arguments are parameters with predefined values.
+If no value is given while calling the function, the default value is used.
+Scope defines where a variable can be used.
+A local variable works only inside a function, while a global variable can be accessed anywhere in the program.
