@@ -1,0 +1,29 @@
+import math
+
+try:
+    print("------ Loan EMI Calculator ------")
+    
+    principal = float(input("Enter Loan Amount: "))
+    annual_rate = float(input("Enter Annual Interest Rate (%): "))
+    years = int(input("Enter Loan Duration (Years): "))
+    
+    # Convert annual rate to monthly rate
+    monthly_rate = annual_rate / (12 * 100)
+    
+    # Total number of months
+    months = years * 12
+    
+    # EMI Formula
+    emi = (principal * monthly_rate * math.pow(1 + monthly_rate, months)) / \
+          (math.pow(1 + monthly_rate, months) - 1)
+    
+    print("Monthly EMI: ₹", round(emi, 2))
+
+except ValueError:
+    print("Invalid input! Please enter numeric values only.")
+
+except ZeroDivisionError:
+    print("Interest rate cannot be zero.")
+
+finally:
+    print("Thank you for using EMI Calculator.")
