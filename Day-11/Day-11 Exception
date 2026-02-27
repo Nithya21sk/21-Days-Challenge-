@@ -1,0 +1,10 @@
+On Day-11, I learned about handling errors in Python using try, except, and finally blocks. 
+Exception handling helps prevent the program from crashing when an unexpected error occurs.
+The try block contains code that might cause an error, and the except block handles that error gracefully. 
+The finally block always executes, whether an error occurs or not.
+It is mainly used for cleanup operations like closing files or displaying final messages.
+I also learned about the import statement, which allows us to use built-in Python modules. 
+Modules contain pre-written functions that make programming easier and faster.
+One important module I explored is the math module. It provides mathematical functions such as square root, power, factorial, and constants like pi. 
+By importing the math module, we can perform complex mathematical calculations easily in our programs.
+Overall, Day-11 helped me understand how to write safer programs and use built-in mathematical tools effectively.
