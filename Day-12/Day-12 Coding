@@ -1,0 +1,10 @@
+file = open("marks.txt", "w")
+file.write("Maths: 85\n")
+file.write("Physics: 90\n")
+file.write("Chemistry: 88\n")
+file.close()
+
+file = open("marks.txt", "r")
+data = file.read()
+print("Student Marks:\n", data)
+file.close()
