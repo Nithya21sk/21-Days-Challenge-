@@ -1,0 +1,16 @@
+File handling in Python allows us to store data permanently in a file and read it later whenever needed. 
+It is useful in real-world applications like saving student records, storing bank transactions, maintaining inventory data, and many more.
+The open() function is used to open a file. While opening a file, we must specify the file name and the mode. 
+The mode tells Python what operation we want to perform, such as reading, writing, or appending data.
+The read() function is used to read the content of a file. 
+It helps us access the stored information and display or process it in our program.
+The write() function is used to store data into a file. If the file is opened in write mode, it will overwrite existing content.
+If it is opened in append mode, new data will be added at the end without deleting old data.
+The close() function is used to close the file after completing the operations. 
+Closing a file is important because it saves the changes and frees system memory.
+In simple terms:
+open() → Opens the file
+read() → Reads data from the file
+write() → Writes data into the file
+close() → Closes the file
+File handling is an important concept because it helps in managing data efficiently in real-world programs.
