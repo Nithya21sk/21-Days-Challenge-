@@ -1,0 +1,7 @@
+Today I learned about list comprehension in Python. 
+It is a short and simple way to create lists in a single line of code. 
+It helps reduce the number of lines compared to using a normal for loop.
+I applied this concept to a student marks example where I filtered only the students who passed the exam.
+Using list comprehension, I combined a loop and a condition in one line to generate a new list.
+This topic helped me understand how to write cleaner and more efficient Python code. 
+It is very useful for filtering and processing data in real-world applications.
