@@ -1,0 +1,3 @@
+marks = [35, 78, 90, 45, 60, 30, 88]
+passed_students = [mark for mark in marks if mark >= 40]
+print(passed_students)
