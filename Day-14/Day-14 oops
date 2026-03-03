@@ -1,0 +1,11 @@
+Object Oriented Programming System (OOPS) is a programming method where we organize code using classes and objects.
+A class is a blueprint or template.
+An object is a real instance created from that class.
+OOPS helps to:
+Organize code properly
+Protect data
+Reuse code
+Manage large projects easily
+In OOPS, data and functions are combined inside a class. This makes the program more secure and structured compared to procedural programming, where data and functions are written separately.
+The keyword self is used inside a class to refer to the current object. It helps access the object’s variables and methods.
+OOPS makes programs more realistic because we can model real-world things like Student, BankAccount, Car, etc.
