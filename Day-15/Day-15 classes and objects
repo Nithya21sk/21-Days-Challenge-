@@ -1,0 +1,11 @@
+Object-Oriented Programming (OOP) is a programming concept that organizes code using classes and objects.
+A class is a blueprint or template used to create objects.
+It defines the structure of data (attributes) and functions (methods) that the objects will have. 
+A class itself does not hold real data until objects are created from it.
+An object is an instance of a class.
+It represents a real-world entity and contains actual values. 
+Multiple objects can be created from a single class, and each object can store different data.
+In Python, a class is created using the class keyword. 
+Objects are created by calling the class name. 
+The __init__ method is a special constructor that runs automatically when an object is created. 
+The self keyword is used to refer to the current object and access its attributes and methods.
