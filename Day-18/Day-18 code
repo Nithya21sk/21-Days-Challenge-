@@ -1,0 +1,22 @@
+class MovieTicket:
+
+    def __init__(self):
+        self.__price = 150   # private variable
+
+    def get_price(self):
+        return self.__price
+
+    def set_price(self, new_price):
+        if new_price > 0:
+            self.__price = new_price
+        else:
+            print("Invalid price")
+
+
+ticket = MovieTicket()
+
+print("Ticket Price:", ticket.get_price())
+
+ticket.set_price(200)
+
+print("Updated Price:", ticket.get_price())
