@@ -1,0 +1,29 @@
+class SmartLight:
+    
+    def __init__(self, room, brightness):
+        self.room = room
+        self.brightness = brightness
+        self.status = "OFF"
+
+    def turn_on(self):
+        self.status = "ON"
+        print(self.room, "light is turned ON")
+    def turn_off(self):
+        self.status = "OFF"
+        print(self.room, "light is turned OFF")
+
+    def display(self):
+        print("Room:", self.room)
+        print("Brightness:", self.brightness)
+        print("Status:", self.status)
+        print()
+      
+light1 = SmartLight("Living Room", 70)
+light2 = SmartLight("Bedroom", 50)
+
+light1.turn_on()
+light1.display()
+
+light2.turn_on()
+light2.turn_off()
+light2.display()
