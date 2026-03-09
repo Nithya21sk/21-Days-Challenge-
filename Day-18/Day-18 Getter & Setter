@@ -1,0 +1,5 @@
+In Python OOP, variables can have different access levels. 
+Public variables can be accessed anywhere in the program.
+Protected variables use a single underscore and are mainly intended for use within the class and its subclasses. 
+Private variables use double underscores and cannot be accessed directly outside the class.
+To safely access or modify private variables, getter and setter methods are used.
