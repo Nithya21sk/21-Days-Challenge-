@@ -1,0 +1,11 @@
+I learned about constructors, instance variables, instance methods, and the self keyword in Python.
+A constructor is a special method in a class called __init__. 
+It is automatically executed when an object of the class is created. 
+The main purpose of a constructor is to initialize the attributes of an object.
+Instance variables are variables that belong to each object of a class. 
+They store the data specific to that object.
+In the example of the SmartLight system, attributes like room name, brightness, and status are stored as instance variables.
+Instance methods are functions defined inside a class that operate on object data.
+These methods allow objects to perform actions, such as turning the light on or off and displaying the light details.
+The self keyword represents the current object of the class.
+It is used to access instance variables and methods inside the class. Using self ensures that each object maintains its own data and behavior.
