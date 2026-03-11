@@ -1,0 +1,17 @@
+class Payment:
+    def pay(self):
+        print("Processing payment")
+
+class CreditCard(Payment):
+    def pay(self):
+        print("Payment done using Credit Card")
+
+class UPI(Payment):
+    def pay(self):
+        print("Payment done using UPI")
+
+c = CreditCard()
+u = UPI()
+
+c.pay()
+u.pay()
