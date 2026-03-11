@@ -1,0 +1,3 @@
+Inheritance in OOP allows one class to acquire the properties and methods of another class.
+It helps in code reuse and improves program structure.
+The main types of inheritance are single, multiple, multilevel, hierarchical, and hybrid inheritance, each representing different relationships between parent and child classes.
