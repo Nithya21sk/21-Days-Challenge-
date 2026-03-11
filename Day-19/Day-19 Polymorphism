@@ -1,0 +1,3 @@
+Polymorphism is an OOP concept where the same method name can perform different actions depending on the object or class.
+It allows programmers to write flexible and reusable code. 
+Common types include method overriding, method overloading, and operator overloading.
