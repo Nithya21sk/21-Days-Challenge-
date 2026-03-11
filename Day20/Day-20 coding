@@ -1,0 +1,33 @@
+Parent Class
+class Library:
+    def library_info(self):
+        print("Welcome to Digital City Library")
+
+
+class Book(Library):
+    def book_details(self):
+        print("Book: Data Structures")
+
+
+class Member(Library):
+    def member_details(self):
+        print("Member: Registered Library User")
+
+
+class EBook(Book):
+    def ebook_format(self):
+        print("Format: PDF EBook")
+
+
+class SmartLibrary(EBook, Member):
+    def smart_feature(self):
+        print("Smart Library: Online Book Access")
+
+
+s = SmartLibrary()
+
+s.library_info()
+s.book_details()
+s.member_details()
+s.ebook_format()
+s.smart_feature()
