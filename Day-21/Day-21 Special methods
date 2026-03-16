@@ -1,0 +1,2 @@
+Special methods help Python classes behave like built-in objects.
+Methods such as __str__, __len__, and __repr__ improve the readability and usability of objects in Python programs.
