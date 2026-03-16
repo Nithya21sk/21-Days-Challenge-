@@ -1,0 +1,18 @@
+Abstraction is the process of hiding internal implementation and showing only essential features.
+
+Abstract Class
+A class that cannot be instantiated
+Contains abstract methods
+Used as blueprint for other classes
+
+abc module
+Used to create abstract classes
+Contains ABC and abstractmethod
+Abstract Method
+
+Method declared but not implemented
+Child class must implement it
+
+Types of Abstraction
+Data Abstraction
+Process Abstraction
